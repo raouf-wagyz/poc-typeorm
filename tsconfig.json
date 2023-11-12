@@ -1,0 +1,41 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "strict": true,
+
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "incremental": true,
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "target": "es2021",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "declaration": true,
+    "paths": {
+      "@controller/*": ["src/api/*"],
+      "@core/*": ["src/core/*"],
+      "@custom-types/*": ["src/custom-types/*"],
+      "@entities/*": ["src/db/entities/*"],
+      "@repositories/*": ["src/db/repositories/*"],
+      "@services/*": ["src/services/*"],
+      "@config/*": ["src/config/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
