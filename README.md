@@ -25,7 +25,7 @@ yarn start   # start app in dev mode
 ```
 
 ## Swagger
-After application start the Swagger UI is available at [swagger-ui](http://localhost:5050/api/swagger)
+After application start the Swagger UI is available at [swagger-ui](http://localhost:5050)
 
 ## Bug Details
 

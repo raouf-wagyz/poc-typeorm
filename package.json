@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": true,
+  "homepage": "/api/swagger",
   "scripts": {
     "start": "nest start --watch"
   },
